@@ -18,13 +18,13 @@ footer {
 
 
 /* flexbox */
-nav ul {
+#index-nav ul {
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
 
-section {
+.index-card {
     display: flex;
     gap: 2.5rem;
     align-items: flex-start;
@@ -32,13 +32,13 @@ section {
     padding-left: 4rem;
 }
 
-section h2 {
+.index-card h2 {
     margin: 0;
     font-size: 1.5rem;
     width: 140px;
 }
 
-section p {
+.index-card p {
     margin: 0;
     text-align: center;
     flex: 3;
